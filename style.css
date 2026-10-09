@@ -1,0 +1,146 @@
+@font-face {
+    font-family: silkserif-ritalic;
+    src: url(silkserif-regularitalic-webfont.ttf);
+}
+@font-face {
+    font-family: plain-light;
+    src: url(plain-light-webfont.ttf);
+}
+@font-face {
+    font-family: plain-regular;
+    src: url(plain-regular-webfont.ttf);
+}
+@font-face {
+    font-family: silkserif-litalic;
+    src: url(silkserif-lightitalic-webfont.ttf);
+}
+
+
+
+
+*{
+    padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   background-color: #030303;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#loading{
+    height: 100%;
+    width: 100%;
+    /* display: flex;
+    /* justify-content: center; */
+    /* align-items: center;  */
+    padding: 300px 100px;
+    padding-top: 250px;
+    /* padding-bottom: 0; */
+    position: relative;
+    background-color: #030303;
+    /* background-color: red; */
+    color: #FFFFFF;
+    gap: 20px;
+    overflow: hidden;
+
+}
+#loading h1{
+    /* height: 35vw;
+    width: 70%; */
+   
+   /* line-height: 200px; */
+   
+     /* text-align: center; */
+     font-size: 7vw;
+     text-transform: uppercase;
+     width: 100%;
+     font-family: "plain-light";
+}
+ #loading #hlast{
+    width: fit-content;
+}
+
+ #loading #divlast{
+    gap: 50px;
+ }
+ #loading #divlast h6{
+    font-size: 4.5vw;
+    text-transform: uppercase;
+   animation: anime 1s cubic-bezier(0.19, 1, 0.22, 1)  infinite  both;
+
+
+ }
+
+#loading div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+#loading div div{
+    gap: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#loading div div h5{
+    width: 70px;
+    height: 50px;
+    font-size: 40px;
+    /* gap: 10px; */
+    font-family: "silkserif-ritalic";
+}
+#loading div  div h6{
+    width: 100px;
+    height: 50px;
+    font-size: 40px;
+    font-family: "silkserif-ritalic";
+}
+#loading div div h4{
+    width: 30px;
+    height: 50px;
+    font-size: 40px;
+    font-family: "silkserif-ritalic";
+   
+}
+@keyframes anime {
+    0%{
+        font-family: "plain-light";
+        opacity: 1;
+          font-weight: 600;
+       -webkit-text-stroke: 1px #fff;
+       color: #fff;
+       
+    }
+    
+
+    47%{
+        font-family: " silkserif-ritalic";
+        opacity: 0;
+               font-weight: 600;
+         -webkit-text-stroke: 1px #fff;
+         color: #fff;
+    }
+
+    50%{
+        font-family:'silkserif-ritalic';
+        opacity: 1;
+       font-weight: 500;
+        -webkit-text-stroke: 1px #fff;
+        color: transparent;
+    }
+    
+     100%{
+        font-family: ' silkserif-ritalic';
+        opacity: 0;
+        font-weight: 500;
+         -webkit-text-stroke: 1px #fff;
+         color: transparent;
+    }
+
+}
+
+
+
+
